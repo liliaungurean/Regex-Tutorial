@@ -47,6 +47,10 @@ Example 2: `[\da-z\.-]` incudes all digits, case sensetive characters a-z, perio
 
 Example 3: `[a-z\.]` incudes case sensetive characters a-z, and periods
 
+### Greedy and Lazy Match
+
+This example only used greedy quantifiers `+` and `{}`. That means that it allows the match to expand as long as it needs to. Lazy quantifications would appear as `+?` and `{}?` and this will direct the system to make the shortest matches.
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)

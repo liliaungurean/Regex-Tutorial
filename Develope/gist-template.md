@@ -9,12 +9,10 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
-- [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
+- [Grouping and Capturing](#Grouping-and-Capturing)
+- [Bracket Expressions](#Bracket-Expressions)
+- [Bracket Expressions](#Bracket-Expressions)
 
 ## Regex Components
 
@@ -26,7 +24,6 @@ The anchors are useed `^` to start of a string and `$` to end a string
 
 This example uses `+` to communicate that there is another sequence to be matched as a greedy quantifier.  It also uses `{2,6}` as another greedy quantification to specify that the input must be a minimum of 2 characters and maximum of 6 characters. 
 
-### Bracket Expressions
 
 ### Character Classes
 
@@ -40,8 +37,15 @@ Group 2: captures the domain name or email service being used; `[\da-z\.-]`
 
 Group 3: catures the domain extention (ex. .com, .net, .edu); `[a-z\.]{2,6}`
 
+### Bracket Expressions
 
-### Character Escapes
+There are 3 Bracket Expressions in the example. The information if opened and closed betweent brackets like this `[]`. This identifies which information is allowed to be matched.
+
+Example 1: `[a-z0-9_\.-]` includes case sensetive characters from a-z, numbers 0-9, underscore, period and hyphens. 
+
+Example 2: `[\da-z\.-]` incudes all digits, case sensetive characters a-z, period and hyphens
+
+Example 3: `[a-z\.]` incudes case sensetive characters a-z, and periods
 
 ## Author
 

@@ -1,5 +1,4 @@
-# Title (replace with your title)
-
+# Regex Tutorial on Matching an Email
 Introductory paragraph (replace this with your text)
 
 ## Summary
@@ -24,6 +23,9 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 The anchors are useed `^` to start of a string and `$` to end a string
 
 ### Quantifiers
+
+This example uses `+` to communicate that there is another sequence to be matched as a greedy quantifier.  It also uses `{2,6}` as another greedy quantification to specify that the input must be a minimum of 2 characters and maximum of 6 characters. 
+
 
 ### Grouping Constructs
 

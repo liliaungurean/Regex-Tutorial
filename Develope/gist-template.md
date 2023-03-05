@@ -26,18 +26,20 @@ The anchors are useed `^` to start of a string and `$` to end a string
 
 This example uses `+` to communicate that there is another sequence to be matched as a greedy quantifier.  It also uses `{2,6}` as another greedy quantification to specify that the input must be a minimum of 2 characters and maximum of 6 characters. 
 
-
-### Grouping Constructs
-
 ### Bracket Expressions
 
 ### Character Classes
 
 This is a regular expression. JavaScript classifies the use of any digit from 0-9 when the character class `/d` is uesed.
 
-### The OR Operator
+### Grouping and Capturing
 
-### Flags
+There are 3 groups being captured in this example. Group 1: Username of the Email account `[a-z0-9_\.-]`
+
+Group 2: captures the domain name or email service being used; `[\da-z\.-]`
+
+Group 3: catures the domain extention (ex. .com, .net, .edu); `[a-z\.]{2,6}`
+
 
 ### Character Escapes
 

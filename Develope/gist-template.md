@@ -33,6 +33,8 @@ This example uses `+` to communicate that there is another sequence to be matche
 
 ### Character Classes
 
+This is a regular expression. JavaScript classifies the use of any digit from 0-9 when the character class `/d` is uesed.
+
 ### The OR Operator
 
 ### Flags

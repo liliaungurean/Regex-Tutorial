@@ -8,3 +8,5 @@
 [Grouping and Capturing](https://www.youtube.com/watch?v=c9HbsUSWilw&t=135s)
 
 [Bracket Expressions](https://www.youtube.com/watch?time_continue=24&v=ILqZ1iT1HUI&embeds_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dregex%2BBracket%2BExpressions%26biw%3D1522%26bih%3D704%26tbm%3Dvid%26sxsrf%3DAJOqlzXxTt7gEi9eFY38Kito4E8V4YTR7Q%253A16&feature=emb_logo)
+
+[Greedy and Lazy Match](https://www.youtube.com/watch?v=yOOwIbkCFqM&t=3s)

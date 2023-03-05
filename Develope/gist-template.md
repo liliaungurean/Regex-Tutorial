@@ -12,7 +12,7 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 - [Character Classes](#character-classes)
 - [Grouping and Capturing](#Grouping-and-Capturing)
 - [Bracket Expressions](#Bracket-Expressions)
-- [Bracket Expressions](#Bracket-Expressions)
+- [Greedy and Lazy Match](#Greedy-and-Lazy-Match)
 
 ## Regex Components
 
@@ -53,4 +53,6 @@ This example only used greedy quantifiers `+` and `{}`. That means that it allow
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Lilia Ungurean. I love to Travel.
+
+Github: [Lilia Ungurean](https://github.com/liliaungurean)
